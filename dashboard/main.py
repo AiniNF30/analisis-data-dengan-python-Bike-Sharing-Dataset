@@ -61,7 +61,7 @@ def load_data(file_path):
     df['dteday'] = pd.to_datetime(df['dteday'])
     return df
 
-main_df = load_data("hour.csv")
+main_df = load_data("/Users/aininurpadilah/analisis-data-dengan-python-Bike-Sharing-Dataset/dashboard/hour.csv")
 
 # Sidebar for date range selection
 st.sidebar.header("Select Date Range")
