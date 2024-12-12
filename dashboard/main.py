@@ -6,11 +6,38 @@ import matplotlib.pyplot as plt
 # Set page layout
 st.set_page_config(layout="wide")
 
-def load_css(file_path):
-    with open(file_path) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+def load_css():
+    css = """
+    .title {
+        color: #007BFF; 
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .info {
+        background-color: #EAF6FF; 
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footer {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .header {
+        font-size: 27px;
+        font-weight: bold;
+        text-align: center;
+    }
+    """
+    st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
-load_css("styles.css")
+load_css()
+
 
 # Display title and user information
 def display_header():
