@@ -1,4 +1,3 @@
-
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
@@ -38,7 +37,6 @@ def load_css():
 
 load_css()
 
-
 # Display title and user information
 def display_header():
     st.markdown('<h1 class="title">BIKE SHARING DASHBOARD 🚲</h1>', unsafe_allow_html=True)
@@ -56,12 +54,13 @@ def display_header():
 display_header()
 
 # Load and preprocess data
-def load_data(file_path):
-    df = pd.read_csv(file_path)
+def load_data(url):
+    df = pd.read_csv(url)
     df['dteday'] = pd.to_datetime(df['dteday'])
     return df
 
-main_df = load_data("/Users/aininurpadilah/analisis-data-dengan-python-Bike-Sharing-Dataset/dashboard/hour.csv")
+url = 'https://drive.google.com/uc?id=14vZd0xgkZgxEVqgLlQYWxhAxO9f3_ob3'
+main_df = load_data(url)
 
 # Sidebar for date range selection
 st.sidebar.header("Select Date Range")
