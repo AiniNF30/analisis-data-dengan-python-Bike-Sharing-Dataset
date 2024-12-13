@@ -143,8 +143,10 @@ display_seasonal_rentals(filtered_df)
 def display_day_rentals(df):
     df['day_of_week'] = df['dteday'].dt.dayofweek
     day_map = {
-        0: 'Monday', 1: 'Tuesday', 2: 'Wednesday', 3: 'Thursday',
-        4: 'Friday', 5: 'Saturday', 6: 'Sunday'
+    0: 'Sunday', 1: 'Monday',
+    2: 'Tuesday', 3: 'Wednesday',
+    4: 'Thursday', 5: 'Friday',
+    6: 'Saturday'
     }
     df['day_name'] = df['day_of_week'].map(day_map)
 
