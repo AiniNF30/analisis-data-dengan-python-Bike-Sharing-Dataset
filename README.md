@@ -19,15 +19,21 @@ Berdasarkan analisis data peminjaman sepeda selama periode 2011-2012, berikut ad
    **Musim gugur (Fall)** mencatat total peminjaman sepeda tertinggi (1,061,129 peminjaman), sementara **musim semi (Spring)** memiliki jumlah peminjaman terendah (471,348 peminjaman). Hal ini menunjukkan bahwa kondisi cuaca pada musim gugur lebih mendukung aktivitas bersepeda dibandingkan musim lainnya.  
 
 3. **Pelanggan Terdaftar Mendominasi**  
-   Dari total peminjaman, **81,2% berasal dari pelanggan terdaftar (registered)**, sementara hanya **18,8% berasal dari pelanggan casual (tidak terdaftar)**. Ini menunjukkan loyalitas yang tinggi dari pelanggan terdaftar, tetapi ada peluang besar untuk meningkatkan jumlah pelanggan casual.  
+   Berdasarkan data, **81,2% peminjaman dilakukan oleh pelanggan terdaftar (registered)**, sedangkan hanya **18,8% berasal dari pelanggan tidak terdaftar (casual)**. Proporsi ini tergambar jelas **melalui diagram pie yang menunjukkan dominasi pelanggan terdaftar**. Hal ini mencerminkan loyalitas yang tinggi dari pelanggan terdaftar, namun juga menunjukkan adanya peluang besar untuk meningkatkan jumlah pelanggan casual.
+
 ## Rekomendasi
 
-1. **Perluas Pemasaran untuk Pelanggan Casual**: Fokus pada kampanye pemasaran untuk menarik lebih banyak pelanggan casual, terutama selama musim gugur.
-2. **Optimalkan Waktu Puncak**: Pastikan sepeda tersedia pada jam-jam puncak (08.00 pagi dan 17.00-18.00 sore) dengan menggunakan data prediksi permintaan.
-3. **Manfaatkan Musim**: Tawarkan promo musiman, khususnya pada musim gugur yang mencatat peminjaman tertinggi, dan promosikan lebih banyak selama musim semi.
-4. **Program Loyalitas untuk Pelanggan Terdaftar**: Tingkatkan kepuasan pelanggan terdaftar dengan program loyalitas dan akses prioritas.
-5. **Optimalkan Lokasi dan Aksesibilitas**: Perbaiki titik peminjaman sepeda di area dengan permintaan tinggi dan kembangkan aplikasi untuk mempermudah peminjaman.
-6. **Fokus pada Hari Jumat dan Sabtu**: Manfaatkan peningkatan peminjaman di hari Jumat dan Sabtu dengan menawarkan diskon atau paket akhir pekan.
+1. **Tingkatkan Pelanggan Casual**: Fokuskan kampanye pemasaran untuk menarik pelanggan casual dengan promosi akhir pekan dan kemudahan registrasi.
+
+2. **Optimalisasi Jam Puncak**: Tambahkan sepeda di stasiun yang ramai pada pukul 08.00 pagi dan 17.00-18.00 sore, serta pertimbangkan layanan pengantaran sepeda.
+
+3. **Promosi Musim Gugur**: Tawarkan paket spesial musim gugur untuk meningkatkan peminjaman selama periode ini.
+
+4. **Program Loyalitas untuk Pelanggan Terdaftar**: Berikan insentif kepada pelanggan terdaftar dengan potongan harga dan akses sepeda premium.
+
+5. **Edukasi Keuntungan Bersepeda**: Jalankan kampanye edukasi tentang manfaat bersepeda untuk kesehatan dan lingkungan.
+
+6. **Event Komunitas**: Selenggarakan event bersepeda untuk memperkenalkan layanan dan menarik lebih banyak pelanggan.
 
 Strategi-strategi ini dapat membantu meningkatkan total peminjaman sepeda, memperluas basis pelanggan, serta memaksimalkan penggunaan aset yang tersedia.
 
